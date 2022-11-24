@@ -25,5 +25,5 @@ class InfoAbout(ListView):
 
 class ContactoCreate(CreateView):
     model = Contacto
-    fields = ['nombres', 'apellidos', 'correo', 'asunto', 'mensaje']
+    #fields = ['nombres', 'apellidos', 'correo', 'asunto', 'mensaje']
     #template_name = 'blog/contacto_form.html'

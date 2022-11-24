@@ -3,7 +3,6 @@ Proyecto Final de CoderHouse Python
 
 ## Integrantes del grupo
 Steve Chunga
-Borja Valenzuela
 
 ## Instalar
 pip install django-ckeditor

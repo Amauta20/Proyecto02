@@ -21,6 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('blog/', InfoList.as_view(), name="index"),
     path('blog/nosotros/', InfoAbout.as_view(), name="about"),
-    path('blog/contacto/', ContactoCreate.as_view(), name='contact'),
+    path('blog/contacto/', ContactoCreate.as_view(), name="contact"),
 ]
 
