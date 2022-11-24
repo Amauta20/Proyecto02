@@ -9,8 +9,6 @@ from django.views import View
 from django.views.generic import ListView, CreateView, DeleteView, UpdateView, DetailView
 from blog.models import Post, Info, Contacto
 
-# Create your views here.
-
 def index(request):
     return render(request, 'blog/index.html')
 
@@ -25,8 +23,7 @@ class InfoAbout(ListView):
     model = Info
     template_name = 'blog/nosotros.html'
 
-class Contact(CreateView):
+class ContactoCreate(CreateView):
     model = Contacto
     fields = ['nombres', 'apellidos', 'correo', 'asunto', 'mensaje']
-    success_msg = "Muchas gracias"
-    template_name = 'blog/contacto_form.html'
+    #template_name = 'blog/contacto_form.html'
