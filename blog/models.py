@@ -60,7 +60,7 @@ class Info(ModeloBase):
 
 
 class Contacto(ModeloBase):
-    nombre = models.CharField('Nombre', max_length = 100)
+    nombres = models.CharField('Nombre', max_length = 100)
     apellidos = models.CharField('Apellidos', max_length = 150)
     correo = models.EmailField('Correo Electrónico', max_length = 200)
     asunto = models.CharField('Asunto', max_length = 100)
